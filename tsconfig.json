@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext"],
+    "types": ["node"],
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "nodenext",
+    "allowJs": true,
+    "rootDir": "src",
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+  },
+  "include": ["src/**/*.ts"]
+}
