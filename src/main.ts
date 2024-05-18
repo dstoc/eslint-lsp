@@ -54,8 +54,8 @@ documents.onDidChangeContent(async (change) => {
           character: (message.column ?? 1) - 1,
         },
         end: {
-          line: (message.endLine ?? 1) - 1,
-          character: (message.endColumn ?? 1) - 1,
+          line: (message.endLine ?? message.line ?? 1) - 1,
+          character: (message.endColumn ?? message.column ?? 1) - 1,
         },
       },
     });
